@@ -1,2 +1,1 @@
-# southern-right-acupuncture
 
