@@ -1,0 +1,431 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("../../images/images-last/background-other-pages-big.jpg");
+    background-size: 100vw 100%;
+}
+.logo-image-section {
+    width: 33vw;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.logo-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.logo {
+    width: 130px;
+    height: 115px;
+    padding-left: 2px;
+}
+.name-section {
+    width: 34vw;
+}
+.name {
+    justify-content: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+  
+}
+.whatsapp-section-top {
+    width: 33vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 2px 50px 2px;
+}
+.whatsapp-section-top picture source, .whatsapp-section-top picture img {
+    width: 32px;
+    height: 32px;
+}
+.whatsapp a {
+    text-decoration: none;
+    color: #ffffff8a;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    padding-left: 10px;
+    margin: 0;
+}
+.navigation-bar {
+    background-color: #ffffff47;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding-left: 0;
+    box-shadow: rgba(0, 0, 0, 0.533) 0px 1px 4px;
+    position: relative;
+    z-index: 1;
+}
+.navigation-bar a {
+    text-decoration: none;
+    color: black;
+}
+.mobile-navigation {
+    display: none;
+}
+.home, .about, .tai-chi, .acupuncture-treatment, .face-rejuvenation, .blog {
+    padding: 20px;
+}
+.home:hover, .about:hover, .tai-chi:hover, .acupuncture-treatment:hover, .face-rejuvenation:hover, .blog:hover {
+    cursor: pointer;
+    background-color: #ffffff70;
+}
+.mobile-navigation {
+    display: none;
+    cursor: pointer;
+}
+.mobile-navigation-close {
+    display: none;
+    cursor: pointer;
+}
+.x-image {
+    padding: 5px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.mobile-navigation-bar {
+    display: none;
+    background-color: #ffffff2f;
+    margin: 0;
+    padding: 0;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    position: relative;
+    z-index: 1;
+}
+.mobile-navigation-bar a {
+    text-decoration: none;
+}
+.home-mobile, .about-mobile, .tai-chi-mobile, .acupuncture-treatment-mobile, .face-rejuvenation-mobile, .blog-mobile {
+    list-style: none;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    padding: 15px 5vw 15px 5vw;
+}
+.home-mobile:hover, .about-mobile:hover, .tai-chi-mobile:hover, .acupuncture-treatment-mobile:hover, .face-rejuvenation-mobile:hover, .blog-mobile:hover {
+    background-color: #ffffff39;
+}
+.home-mobile:active, .about-mobile:active, .tai-chi-mobile:active, .acupuncture-treatment-mobile:active, .face-rejuvenation-mobile:active, .blog-mobile:active {
+    background-color: #ffffff39;
+}  
+.home-mobile, .about-mobile, .tai-chi-mobile, .acupuncture-treatment-mobile, .face-rejuvenation-mobile {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.088);
+}
+main {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main h1 {
+    color: orange;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+.tai-chi-first-part {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    margin: 0;
+}
+.tai-chi-second-part {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border-top: 5px dotted black;
+    border-bottom: 5px dotted black;
+    margin-top: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.tai-chi-second-part img {
+    width: 50px;
+    height: 50px;
+}
+.first-leaf {
+    margin-right: 15px;
+}
+.second-leaf {
+    margin-left: 15px;
+}
+.tai-chi-second-part p {
+    font-size: 20px;
+    text-align: center;
+}
+.tai-chi-photo-section {
+    display: flex;
+    margin-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.tai-chi-photo-section picture source, .tai-chi-photo-section picture img {
+    width: 300px;
+}
+.tai-chi-photo-section p {
+    font-size: 20px;
+    padding-left: 5px;
+    margin: 0;
+    margin-top: -6px;
+}
+.tai-chi-last-part {
+    margin-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
+}
+.times-section {
+    font-size: 20px;
+    text-align: center;
+}
+.times-header {
+    margin-top: 50px;
+}
+.time-explanation {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 17px;
+}
+.whatsapp-link {
+    color: black;
+    font-weight: bold;
+}
+.whatsapp-link:hover {
+    color: gray;
+}
+.water-section {
+    padding-top: 5px;
+}
+.water-section p {
+    margin-bottom: 0;
+}
+.book-section {
+    color: gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    width: 100%;
+    font-size: 17px;
+    background-color: rgba(217, 217, 217, 0.6);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.book-section p a {
+    background-color: white;
+    margin-left: 20px;
+    color: gray;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    border: 2px solid gray;
+    padding: 10px;
+    border-radius: 15px;
+}
+.book-section p a:hover {
+    background-color: rgba(217, 217, 217, 0.6);
+}
+footer {
+    background-color: rgb(165, 165, 165);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.whatsapp-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(196, 195, 195);;
+}
+.whatsapp-section h4 a {
+    text-decoration: none;
+    color: black;
+}
+.whatsapp-section h4 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    margin: 15px;
+}
+.designer {
+    display: flex;
+}
+footer p {
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0 10px 0;
+}
+
+@media (max-width: 1110px) {
+    .book-section {
+        flex-direction: column;
+    }
+    .book-section p {
+        text-align: center;
+    }
+}
+@media (max-width: 720px) {
+    .header {
+        box-shadow: rgba(0, 0, 0, 0.533) 0px 1px 4px;
+        position: relative;
+        z-index: 1;
+    }
+    .logo-section {
+        width: 90vw;
+        margin-left: 5vw;
+        justify-content: space-between;
+    }
+    .logo-image-section {
+        width: 130px;
+        justify-content: flex-start;
+        padding: 0;
+    }
+    .whatsapp-section-top {
+        display: none;
+    }
+    .mobile-navigation {
+        display: inline;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .navigation-image {
+        width: 50px;
+        margin-right: 5vw;
+    }
+    .navigation-bar {
+        display: none;
+    }
+    .x-image {
+        width: 40px;
+        height: 40px;
+        margin-right: 5vw;
+    }
+}
+@media (max-width: 640px) {
+    .logo-image-section {
+        width: 100px;
+    }
+    .logo {
+        width: 100px;
+        height: 85px;
+    }
+    .name {
+        font-size: 24px;
+    }
+    .navigation-image {
+        width: 40px;
+    }
+    .x-image {
+        width: 30px;
+        height: 30px;
+    }
+    main h1 {
+        font-weight: 500;
+        font-size: 30px;
+    }
+    .tai-chi-first-part {
+        text-align: center;
+        font-size: 17px;
+        color: rgb(100, 100, 100);
+        line-height: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .tai-chi-photo-section {
+        flex-direction: column;
+    }
+    .tai-chi-photo-section  p {
+        text-align: center;
+        font-size: 17px;
+        color: rgb(100, 100, 100);
+        line-height: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .tai-chi-photo-section picture img {
+        width: 100vw;
+    }
+    .tai-chi-photo-section p {
+        margin-top: 20px;
+    }
+    .tai-chi-last-part {
+        text-align: center;
+        font-size: 17px;
+        color: rgb(100, 100, 100);
+        line-height: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .times-section div h3 {
+        font-size: 20px;
+    }
+    .times-section div p {
+        font-size: 17px;
+        line-height: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .time-explanation p {
+        font-size: 17px;
+        color: rgb(100, 100, 100);
+        line-height: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+@media (max-width: 480px) {
+    header {
+        background-image: url("../../images/images-last/background-other-pages-small.jpg");
+    }
+    .name {
+        font-size: 20px;
+    }
+}
+@media (max-width: 440px) {
+    .logo-image-section {
+        width: 78px;
+    }
+    .logo {
+        width: 78px;
+        height: 65px;
+    }
+    .name {
+        font-size: 18px;
+    }
+    .navigation-image {
+        width: 30px;
+    }
+    .x-image {
+        width: 25px;
+        height: 25px;
+    }
+    .designer {
+        flex-direction: column;
+    }
+}
+@media (max-width: 350px) {
+    .whatsapp-section h4 {
+        font-size: 18px;
+    }
+}

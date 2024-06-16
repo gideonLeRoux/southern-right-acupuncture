@@ -1,0 +1,354 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("../../images/images-last/background-other-pages-big.jpg");
+    background-size: 100vw 100%;
+}
+.logo-image-section {
+    width: 33vw;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.logo-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+.logo {
+    width: 130px;
+    height: 115px;
+    padding-left: 2px;
+}
+.name-section {
+    width: 34vw;
+}
+.name {
+    justify-content: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+  
+}
+.whatsapp-section-top {
+    width: 33vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 2px 50px 2px;
+}
+.whatsapp-section-top picture source, .whatsapp-section-top picture img {
+    width: 32px;
+    height: 32px;
+}
+.whatsapp a {
+    text-decoration: none;
+    color: #ffffff8a;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    padding-left: 10px;
+    margin: 0;
+}
+.navigation-bar {
+    background-color: #ffffff47;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding-left: 0;
+    box-shadow: rgba(0, 0, 0, 0.533) 0px 1px 4px;
+    position: relative;
+    z-index: 1;
+}
+.navigation-bar a {
+    text-decoration: none;
+    color: black;
+}
+.mobile-navigation {
+    display: none;
+    cursor: pointer;
+}
+.mobile-navigation-close {
+    display: none;
+    cursor: pointer;
+}
+.x-image {
+    padding: 5px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.mobile-navigation-bar {
+    display: none;
+    background-color: #ffffff2f;
+    margin: 0;
+    padding: 0;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    position: relative;
+    z-index: 1;
+}
+.mobile-navigation-bar a {
+    text-decoration: none;
+}
+.home-mobile, .about-mobile, .tai-chi-mobile, .acupuncture-treatment-mobile, .face-rejuvenation-mobile, .blog-mobile {
+    list-style: none;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    padding: 15px 5vw 15px 5vw;
+}
+.home-mobile:hover, .about-mobile:hover, .tai-chi-mobile:hover, .acupuncture-treatment-mobile:hover, .face-rejuvenation-mobile:hover, .blog-mobile:hover {
+    background-color: #ffffff39;
+}
+.home-mobile:active, .about-mobile:active, .tai-chi-mobile:active, .acupuncture-treatment-mobile:active, .face-rejuvenation-mobile:active, .blog-mobile:active {
+    background-color: #ffffff39;
+}  
+.home-mobile, .about-mobile, .tai-chi-mobile, .acupuncture-treatment-mobile, .face-rejuvenation-mobile {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.088);
+}
+.home, .about, .tai-chi, .acupuncture-treatment, .face-rejuvenation, .blog {
+    padding: 20px;
+}
+.home:hover, .about:hover, .tai-chi:hover, .acupuncture-treatment:hover, .face-rejuvenation:hover, .blog:hover {
+    cursor: pointer;
+    background-color: #ffffff70;
+}
+main {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+main h1 {
+    color: orange;
+    text-align: center;
+}
+.acupuncture-first-section {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+}
+.acupuncture-first-section p {
+    flex: 1;
+    font-size: 20px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.acupuncture-first-section-first-paragraph {
+    margin-right: 10px;
+}
+.acupuncture-first-section-second-paragraph {
+    margin-left: 10px;
+}
+.acupuncture-second-section {
+    display: flex;
+    margin: 50px 20px 0 20px;
+}
+.acupuncture-second-section p {
+    margin: -6px 0 0 20px;
+    font-size: 20px;
+}
+.acupucture-image {
+    width: 300px;
+}
+.acupuncture-third-section {
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
+    padding: 40px 20px 40px 20px;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 40px;
+}
+.acupuncture-third-section a {
+    color: orange;
+}
+.acupuncture-forth-section {
+    text-align: center;
+    padding: 40px 20px 40px 20px;
+    font-size: 17px;
+    color: gray;
+}
+.acupuncture-last-section {
+   background-color: rgba(217, 217, 217, 0.6); 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-size: 17px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+.acupuncture-last-section p {
+    margin-bottom: 0;
+    text-align: center;
+}
+.acupuncture-last-section p a {
+    color: black;
+}
+.acupuncture-last-section-link {
+    padding-bottom: 20px;
+}
+footer {
+    background-color: rgb(165, 165, 165);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.whatsapp-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(196, 195, 195);;
+}
+.whatsapp-section h4 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    margin: 15px;
+}
+.whatsapp-section h4 a {
+    text-decoration: none;
+    color: black;
+}
+.designer {
+    display: flex;
+}
+footer p {
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0 10px 0;
+}
+@media (max-width: 950px) {
+    .acupuncture-second-section {
+        flex-direction: column;
+    }
+    .acupuncture-second-section p {
+        margin: 20px 0 0 0;
+        font-size: 20px;
+    }
+    .acupucture-image {
+        width: 100%;
+    }
+}
+@media (max-width: 720px) {
+    .header {
+        box-shadow: rgba(0, 0, 0, 0.533) 0px 1px 4px;
+        position: relative;
+        z-index: 1;
+    }
+    .logo-section {
+        width: 90vw;
+        margin-left: 5vw;
+        justify-content: space-between;
+    }
+    .logo-image-section {
+        width: 130px;
+        justify-content: flex-start;
+        padding: 0;
+    }
+    .whatsapp-section-top {
+        display: none;
+    }
+    .mobile-navigation {
+        display: inline;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .navigation-image {
+        width: 50px;
+        margin-right: 5vw;
+    }
+    .navigation-bar {
+        display: none;
+    }
+    .x-image {
+        width: 40px;
+        height: 40px;
+        margin-right: 5vw;
+    }
+}
+@media (max-width: 640px) {
+    .logo-image-section {
+        width: 100px;
+    }
+    .logo {
+        width: 100px;
+        height: 85px;
+    }
+    .name {
+        font-size: 24px;
+    }
+    .navigation-image {
+        width: 40px;
+    }
+    .x-image {
+        width: 30px;
+        height: 30px;
+    }
+    main h1 {
+        font-weight: 500;
+        font-size: 30px;
+    }
+    .acupuncture-first-section {
+        flex-direction: column;
+    }
+    .acupuncture-first-section p, .acupuncture-second-section p{
+        font-size: 17px;
+        text-align: center;
+        color: rgb(100, 100, 100);
+        line-height: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .acupuncture-first-section p {
+        border-bottom: none;
+    }
+    .acupuncture-first-section-first-paragraph {
+        margin-right: 0;
+        padding-bottom: 20px;
+    }
+    .acupuncture-first-section-second-paragraph {
+        margin-left: 0;
+    }
+}
+@media (max-width: 480px) {
+    header {
+        background-image: url("../../images/images-last/background-other-pages-small.jpg");
+    }
+    .name {
+        font-size: 20px;
+    }
+}
+@media (max-width: 440px) {
+    .logo-image-section {
+        width: 78px;
+    }
+    .logo {
+        width: 78px;
+        height: 65px;
+    }
+    .name {
+        font-size: 18px;
+    }
+    .navigation-image {
+        width: 30px;
+    }
+    .x-image {
+        width: 25px;
+        height: 25px;
+    }
+    .designer {
+        flex-direction: column;
+    }
+}
+@media (max-width: 350px) {
+    .whatsapp-section h4 {
+        font-size: 18px;
+    }
+}
